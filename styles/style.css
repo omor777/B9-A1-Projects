@@ -12,7 +12,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-
 /* common shared styles */
 
 .container {
@@ -20,7 +19,11 @@ body {
   max-width: 1320px;
   margin: 0 auto;
 }
-
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 /* header section styles */
 
 #header .hero {
@@ -95,14 +98,13 @@ body {
 
 /* party section */
 #party-section {
-    padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 #party-section .row {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
   padding: 126px 0 147px 126px;
   border-radius: 1rem;
-  
 }
 #party-section .row .heading {
   max-width: 642px;
@@ -133,3 +135,47 @@ body {
   margin-top: 48px;
   display: inline-block;
 }
+
+/* location section */
+#location {
+    padding-bottom: 120px;
+}
+#location .row {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 0 110px 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+#location .row .place {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+}
+#location .row .place .red-text {
+  color: #f00;
+}
+
+#location .row .join-btn {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
