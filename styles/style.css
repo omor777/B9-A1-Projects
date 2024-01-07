@@ -309,3 +309,78 @@ body {
   left: -165px;
   top: 86px;
 }
+
+/* portfolio section */
+
+#portfolio {
+  padding-top: 220px;
+}
+#portfolio .row {
+}
+#portfolio .row .content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+#portfolio .row .content .title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#portfolio .row .content .heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+#portfolio .row .content .description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 896px;
+}
+
+#portfolio .row .works {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+#portfolio .row .works .work {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 424px;
+  height: 450px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+#portfolio .row .works .work:hover {
+  transform: translateY(-15px);
+}
+#portfolio .row .works :nth-child(1) {
+  background-image: url("../images/work1.png");
+}
+#portfolio .row .works :nth-child(2) {
+  background-image: url("../images/work2.png");
+}
+#portfolio .row .works :nth-child(3) {
+  background-image: url("../images/work3.png");
+}
+#portfolio .row .works :nth-child(4) {
+  background-image: url("../images/work4.png");
+}
+#portfolio .row .works :nth-child(5) {
+  background-image: url("../images/work5.png");
+}
+#portfolio .row .works :nth-child(6) {
+  background-image: url("../images/work6.png");
+}
