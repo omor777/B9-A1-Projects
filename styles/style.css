@@ -33,7 +33,8 @@ h6 {
 
 #header .hero {
   height: 600px;
-  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/BannerImage.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/BannerImage.png");
   border-radius: 1rem;
   overflow: hidden;
   margin-top: 50px;
@@ -50,6 +51,7 @@ h6 {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
+  font-family: Merriweather;
 }
 #header .hero .heading {
   color: #fff;
@@ -58,4 +60,43 @@ h6 {
   font-weight: 900;
   line-height: 95px;
   max-width: 632px;
+  font-family: Merriweather;
+}
+
+/* new year section */
+
+#new-year {
+  padding: 120px 0;
+}
+#new-year .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#new-year .row .offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+#new-year .row .deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+#new-year .row .category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 48px;
 }
