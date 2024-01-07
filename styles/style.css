@@ -24,6 +24,9 @@ body {
   outline: none;
   cursor: pointer;
 }
+.red-text {
+  color: #f00;
+}
 /* header section styles */
 
 #header .hero {
@@ -163,9 +166,6 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
-#location .row .place .red-text {
-  color: #f00;
-}
 
 #location .row .join-btn {
   padding: 16px 32px;
@@ -236,4 +236,76 @@ body {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 43px;
+}
+
+/* holiday sale section */
+
+#holiday-sale {
+  padding-bottom: 120px;
+}
+#holiday-sale .row {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  position: relative;
+}
+#holiday-sale .row .top-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+#holiday-sale .row .top-col .title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+#holiday-sale .row .top-col .heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+#holiday-sale .row .top-col .description {
+  max-width: 1068px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+#holiday-sale .row .bottom-col {
+  align-self: end;
+  border-radius: 16px 16px 0px 0px;
+  position: relative;
+}
+
+#holiday-sale .row .box-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  bottom: -225px;
+}
+
+#holiday-sale .row::after {
+  content: "";
+  border-radius: 16px 0px 16px 16px;
+  background: #f00;
+  height: 229px;
+  position: absolute;
+  width: 100%;
+  z-index: 30;
+  bottom: -222px;
+  left: 0;
+}
+#holiday-sale .row .bottom-col .discount {
+  position: absolute;
+  left: -165px;
+  top: 86px;
 }
