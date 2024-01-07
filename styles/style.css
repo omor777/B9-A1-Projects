@@ -138,7 +138,7 @@ body {
 
 /* location section */
 #location {
-    padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 #location .row {
   background: linear-gradient(
@@ -178,4 +178,62 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+/* offer section */
+#new-offer {
+  padding-bottom: 120px;
+}
+#new-offer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+#new-offer .row .left-col .title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#new-offer .row .left-col .heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+#new-offer .row .left-col .description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 393px;
+  margin-top: 22px;
+}
+
+#new-offer .row .middle-col {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 49px;
+}
+
+#new-offer .row .right-col {
+  align-self: end;
+}
+#new-offer .row .right-col .year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#new-offer .row .right-col .text {
+  max-width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 43px;
+}
