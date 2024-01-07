@@ -100,15 +100,22 @@ body {
 }
 
 /* party section */
+
 #party-section {
   padding-bottom: 120px;
 }
 #party-section .row {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
-  padding: 126px 0 147px 126px;
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 68px 128px;
 }
+
+
+
 #party-section .row .heading {
   max-width: 642px;
   color: #fff;
@@ -451,4 +458,74 @@ body {
   outline: none;
 }
 
+/* footer section */
 
+#footer {
+  background: #070211;
+  padding: 120px 0;
+}
+
+#footer .row .col-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .row .col-1 .text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+#footer .row .col-1 .phone {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#footer .row .col-1 .phone > p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+#footer .row .col-1 .web {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#footer .row .col-1 .web > p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+#footer .row .col-2 {
+  margin: 98px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+#footer .row .col-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer .row .col-3 .copyright {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+#footer .row .col-3 .unsubscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
