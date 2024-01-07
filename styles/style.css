@@ -434,7 +434,8 @@ body {
 }
 #newsletter .row form input[type="submit"] {
   background: #f00;
-  padding: 24px 56px;
+  padding: 0 56px;
+  height: 100%;
   color: #fff;
   font-family: "Inter", sans-serif;
   font-size: 20px;
