@@ -49,7 +49,7 @@ body {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
 }
 #header .hero .heading {
   color: #fff;
@@ -58,7 +58,7 @@ body {
   font-weight: 900;
   line-height: 95px;
   max-width: 632px;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
 }
 
 /* new year section */
@@ -76,7 +76,7 @@ body {
 #new-year .row .offer {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 88px;
   font-weight: 700;
   margin-bottom: 48px;
@@ -85,14 +85,14 @@ body {
 #new-year .row .deals {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 #new-year .row .category {
   color: #070211;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
   margin-top: 1rem;
@@ -114,12 +114,10 @@ body {
   padding: 68px 128px;
 }
 
-
-
 #party-section .row .heading {
   max-width: 642px;
   color: #fff;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 64px;
   font-weight: 900;
   line-height: 88px;
@@ -128,7 +126,7 @@ body {
 #party-section .row .description {
   max-width: 697px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -137,7 +135,7 @@ body {
 #party-section .row .join-now-btn {
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -166,7 +164,7 @@ body {
 }
 #location .row .place {
   color: #070211;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -180,7 +178,7 @@ body {
   background: #f00;
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -197,21 +195,21 @@ body {
 
 #new-offer .row .left-col .title {
   color: #f00;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 #new-offer .row .left-col .heading {
   color: #070211;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
 }
 #new-offer .row .left-col .description {
   color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -230,7 +228,7 @@ body {
 }
 #new-offer .row .right-col .year {
   color: #f00;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -238,7 +236,7 @@ body {
 #new-offer .row .right-col .text {
   max-width: 276px;
   color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -265,13 +263,13 @@ body {
 }
 #holiday-sale .row .top-col .title {
   color: #070211;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 #holiday-sale .row .top-col .heading {
   color: #070211;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 12px;
@@ -280,7 +278,7 @@ body {
   max-width: 1068px;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
@@ -331,14 +329,14 @@ body {
   margin-bottom: 48px;
 }
 #portfolio .row .content .title {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 
 #portfolio .row .content .heading {
   color: #070211;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -347,7 +345,7 @@ body {
 
 #portfolio .row .content .description {
   color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -408,7 +406,7 @@ body {
 #newsletter .row .heading {
   color: #070211;
   text-align: center;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -418,7 +416,7 @@ body {
   max-width: 896px;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -438,7 +436,7 @@ body {
   background: #f00;
   padding: 24px 56px;
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -451,7 +449,7 @@ body {
   flex-grow: 1;
   padding: 0 30px;
   color: rgba(7, 2, 17, 0.3);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   border: none;
@@ -472,7 +470,7 @@ body {
 }
 #footer .row .col-1 .text {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -485,7 +483,7 @@ body {
 }
 #footer .row .col-1 .phone > p {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -497,7 +495,7 @@ body {
 }
 #footer .row .col-1 .web > p {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -519,13 +517,13 @@ body {
 
 #footer .row .col-3 .copyright {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 #footer .row .col-3 .unsubscribe {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
