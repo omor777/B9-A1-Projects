@@ -25,7 +25,7 @@ body {
   cursor: pointer;
 }
 .red-text {
-  color: #f00;
+  color: #38ada9;
 }
 /* header section styles */
 
@@ -74,7 +74,7 @@ body {
 }
 
 #new-year .row .offer {
-  color: #f00;
+  color: #38ada9;
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 88px;
@@ -83,7 +83,7 @@ body {
 }
 
 #new-year .row .deals {
-  color: #f00;
+  color: #38ada9;
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -132,6 +132,7 @@ body {
   line-height: 30px;
   margin-top: 24px;
 }
+
 #party-section .row .join-now-btn {
   color: #fff;
   text-align: center;
@@ -142,8 +143,16 @@ body {
   text-decoration: none;
   margin-top: 48px;
   display: inline-block;
+  border: 2px solid #38ada9;
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
+#party-section .row .join-now-btn:hover {
+  background-color: #38ada9;
+  color: #fff;
+}
 /* location section */
 #location {
   padding-bottom: 120px;
@@ -175,14 +184,34 @@ body {
 #location .row .join-btn {
   padding: 16px 32px;
   border-radius: 8px;
-  background: #f00;
+  background: #38ada9;
   color: #fff;
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
 }
+
+#location .row .join-btn::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background-color: #fff;
+  top: 0%;
+  left: 0%;
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.5s;
+}
+
+#location .row .join-btn:hover::before {
+  transform: translateX(100%) rotate(45deg);
+}
+
 /* offer section */
 #new-offer {
   padding-bottom: 120px;
@@ -194,7 +223,7 @@ body {
 }
 
 #new-offer .row .left-col .title {
-  color: #f00;
+  color: #38ada9;
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -219,7 +248,7 @@ body {
 
 #new-offer .row .middle-col {
   border-radius: 463px;
-  border: 15px solid #f00;
+  border: 15px solid #38ada9;
   padding: 49px;
 }
 
@@ -227,7 +256,7 @@ body {
   align-self: end;
 }
 #new-offer .row .right-col .year {
-  color: #f00;
+  color: #38ada9;
   font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -301,7 +330,7 @@ body {
 #holiday-sale .row::after {
   content: "";
   border-radius: 16px 0px 16px 16px;
-  background: #f00;
+  background: #38ada9;
   height: 229px;
   position: absolute;
   width: 100%;
@@ -433,7 +462,7 @@ body {
   align-items: center;
 }
 #newsletter .row form input[type="submit"] {
-  background: #f00;
+  background: #38ada9;
   padding: 0 56px;
   height: 100%;
   color: #fff;
