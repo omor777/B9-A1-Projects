@@ -497,6 +497,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 50px;
 }
 #footer .row .col-1 .text {
   color: #fff;
@@ -532,17 +534,20 @@ body {
 }
 
 #footer .row .col-2 {
-  margin: 98px 0;
+  margin-top:  48px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 48px;
 }
 
 #footer .row .col-3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 #footer .row .col-3 .copyright {
