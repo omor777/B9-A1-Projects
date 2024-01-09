@@ -534,7 +534,7 @@ body {
 }
 
 #footer .row .col-2 {
-  margin-top:  48px;
+  margin-top: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -561,4 +561,5 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  text-decoration: none;
 }
